@@ -10,7 +10,7 @@ St-Petersburg, Russia
 
 [Email](mailto:dima5544@ya.ru)  
 [Telegram](https://t.me/yablochkov)  
-[Git] (https://github.com/yablochkov)
+[Git](https://github.com/yablochkov)
 
 #### **Summary:**
 
