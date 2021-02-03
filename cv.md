@@ -18,10 +18,10 @@ St-Petersburg, Russia
 #### **Skills:**
 
 - HTML5/CSS3
-- JavaScript (basics)
+- JavaScript (*basics*)
 - Markdown
 - Git
-- WordPress (basics)
+- WordPress (*basics*)
 - Adobe Photoshop
 - 3ds Max
 
