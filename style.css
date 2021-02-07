@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(231, 231, 231);
+  margin: 0;
+}
+main {
+  display: flex;
+  flex-wrap: no-wrap;
+}
+.leftpanel {
+  display: block;
+  max-width: 25%;
+  height: 1000px;
+  background-color: rgb(48, 48, 48);
+  margin: 0;
+  color: rgb(247, 247, 247);
+}
+.photo {
+  display: block;
+  width: 80%;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+.rightpanel {
+  display: inline;
+  width: 80%;
+  height: 1000px;
+  background-color: rgb(247, 247, 247);
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.contacts {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+h4 {
+  margin: 30px 30px 15px 30px;
+  text-transform: uppercase;
+}
+.link {
+  font-size: 24px;
+  color: rgb(247, 247, 247);
+}
+a:hover {
+  color: rgb(37, 84, 238);
+}
+.city {
+  margin: 0 30px;
+  font-size: 20px;
+}
+.education {
+  margin-left: 40px;
+}
