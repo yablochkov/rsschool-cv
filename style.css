@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(231, 231, 231);
+  margin: 0;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 50px;
+}
+.leftpanel {
+  max-width: 25%;
+  min-height: max-content;
+  background-color: rgb(48, 48, 48);
+  margin: 0;
+  color: rgb(247, 247, 247);
+  min-height: 1200px;
+}
+
+.rightpanel {
+  width: 60%;
+  min-height: max-content;
+  background-color: rgb(247, 247, 247);
+  margin: 0;
+  color: rgb(48, 48, 48);
+  min-height: 1200px;
+}
+.photo {
+  display: block;
+  width: 80%;
+  border-radius: 50%;
+  margin: 20px auto 60px;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.contacts {
+  width: 80%;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.6;
+}
+h4 {
+  width: 80%;
+  margin: 20px auto;
+  text-transform: uppercase;
+}
+.link {
+  font-size: 20px;
+  color: rgb(247, 247, 247);
+}
+a:hover {
+  color: rgb(57, 80, 156);
+}
+
+.text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.skills {
+  list-style-type: circle;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.logo {
+  display: block;
+  width: 70px;
+  opacity: 0.7;
+  align-self: flex-end;
+}
+address {
+  display: block;
+  font-style: normal;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+hr {
+  width: 70%;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
