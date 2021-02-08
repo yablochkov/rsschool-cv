@@ -3,20 +3,19 @@ html {
 }
 body {
   min-height: 100%;
-  display: flex;
-  justify-content: center;
+
   font-family: "Roboto", sans-serif;
   background-color: rgb(231, 231, 231);
   margin: 0;
 }
 main {
   display: flex;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 .leftpanel {
-  display: block;
   max-width: 25%;
-  height: 1000px;
+  height: 1100px;
   background-color: rgb(48, 48, 48);
   margin: 0;
   color: rgb(247, 247, 247);
@@ -28,11 +27,11 @@ main {
   margin: 20px auto;
 }
 .rightpanel {
-  display: inline;
-  width: 80%;
-  height: 1000px;
+  width: 60%;
+  height: 1100px;
   background-color: rgb(247, 247, 247);
   margin: 0;
+  color: rgb(48, 48, 48);
 }
 
 header {
@@ -41,27 +40,34 @@ header {
   font-weight: 300;
 }
 .contacts {
+  width: 80%;
   list-style-type: none;
   padding-left: 0;
-  margin-bottom: 50px;
-  margin-left: 30px;
+  margin: 0 auto;
   font-size: 20px;
+  line-height: 1.6;
 }
 h4 {
-  margin: 30px 30px 15px 30px;
+  width: 80%;
+  margin: 20px auto;
   text-transform: uppercase;
 }
 .link {
-  font-size: 24px;
+  font-size: 20px;
   color: rgb(247, 247, 247);
 }
 a:hover {
-  color: rgb(37, 84, 238);
+  color: rgb(57, 80, 156);
 }
-.city {
-  margin: 0 30px;
+
+.text {
+  width: 80%;
+  margin: 0 auto;
   font-size: 20px;
 }
-.education {
-  margin-left: 40px;
+.skills {
+  list-style-type: circle;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
 }
