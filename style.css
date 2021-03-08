@@ -34,7 +34,7 @@ main {
 }
 .photo {
   display: block;
-  width: 80%;
+  width: 60%;
   border-radius: 50%;
   margin: 20px auto 60px;
 }
@@ -92,7 +92,15 @@ footer {
   bottom: 0;
 }
 hr {
-  width: 70%;
+  width: 80%;
   margin-bottom: 20px;
   margin-left: 50px;
+}
+.code {
+  background-color: rgb(233, 233, 233, 0.8);
+  border-radius: 10px;
+  width: 80%;
+  margin: auto 50px;
+  font-size: 16px;
+  padding-top: 10px;
 }
