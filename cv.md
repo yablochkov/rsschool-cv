@@ -14,7 +14,7 @@ St-Petersburg, Russia
 
 #### **Summary:**
 
-> Since my current job of photographer became less demanded last year, I've decided to reach new horizons and try myself as a web developer. I used to work with sites and web graphic a lot, so I hope it'll help me to achieve new specialization.
+> Since my current job of photographer became less demanded last years, I've decided to reach new horizons and try myself as a web developer. I used to work with sites and web graphic a lot, so I hope it'll help me to achieve new specialization.
 
 #### **Skills:**
 
@@ -29,17 +29,24 @@ St-Petersburg, Russia
 #### **Code examples:**
 
 ```
-const name = 'Tirion';
-console.log(name.length); // => 6
-name.length = 100;
-console.log(name.length); // => 6
+function findOutlier(integers){
+    var res;
+  var odd = integers.filter(function(e){
+    if(e%2 != 0){
+      res = e;
+    };
+    return e%2 == 0;
+  });
+  
+  return odd.length>1 ? res : odd.pop();
+}
 ```
 
 #### **Education:**
 
 - Saint-Petersburg State University, 2012
-- Code-basics courses
-- Rolling Scopes School JS/FE 2021Q1 (Currently)
+- Code-basics courses (HTML, CSS)
+- Rolling Scopes School JS/FE 2022Q2 (Currently)
 
 #### **Languages:**
 
