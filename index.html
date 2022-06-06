@@ -60,7 +60,7 @@
           <ul class="text">
             <li>Saint-Petersburg State University, Economic of Labour, 2007 - 2012</li>
             <li>Code-basics online courses, 2021</li>
-            <li>Rolling Scopes School JS/FE 2021Q1, 2020 - present</li>
+            <li>Rolling Scopes School JS/FE 2022Q2, 2022 - present</li>
           </ul>
       </article>
           <br>
@@ -82,15 +82,17 @@
         <h4>Code examples</h4>
         <hr>
         <pre class="code">
-          function mygcd(x,y){
-              while (x != 0 && y != 0)
-              if (x > y){
-                x = x % y;
-               } else {
-                y = y % x;
-            }
-            return (x + y);
-            }
+          function findOutlier(integers){
+            let res;
+                let odd = integers.filter(function(e){
+                if(e%2 != 0){
+                    res = e;
+                };
+                return e%2 == 0;
+                });
+  
+         return odd.length>1 ? res : odd.pop();
+         }
         </pre>
       </article>
           <article>
